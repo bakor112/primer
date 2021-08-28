@@ -5,13 +5,13 @@ import java.util.GregorianCalendar;
 
 import static java.lang.Thread.*;
 
-public class Main {
+public class Main extends Test1 {
 
     public static void main(String[] args) throws InterruptedException {
 
         Calendar calendar = new GregorianCalendar(2017, 0 , 25);
         Date date = calendar.getTime();
-        System.out.println(date);
-        System.out.println();///
+        Test1 r = new Test1();
+        r.hui();
     }
 }
