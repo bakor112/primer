@@ -7,4 +7,5 @@ public class Test1 {
     public void hui(){
         System.out.println(h);///////
     }
+
 }
