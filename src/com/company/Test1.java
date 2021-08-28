@@ -5,6 +5,6 @@ public class Test1 {
     String h = "gggg";
 
     public void hui(){
-        System.out.println(h);
+        System.out.println(h);///////
     }
 }
